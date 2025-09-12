@@ -248,7 +248,6 @@
 
 
 
-... (continue for all steps)  
 
 ---
 
