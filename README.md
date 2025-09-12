@@ -204,6 +204,36 @@
 
 
 
+5.Pipeline Creation
+
+<img width="960" height="540" alt="36img" src="https://github.com/user-attachments/assets/60c3d1e6-443a-4395-b019-81d650a06791" />
+
+<img width="960" height="540" alt="37img" src="https://github.com/user-attachments/assets/c823e94c-6403-4fcf-aa80-a0bea8648817" />
+
+6. Trigeering
+
+<img width="960" height="540" alt="38img" src="https://github.com/user-attachments/assets/0286aff7-af2a-4ba6-afd9-f9ad0fc81f7a" />
+
+<img width="960" height="540" alt="39img" src="https://github.com/user-attachments/assets/1ef6cc98-ba96-4f37-bdbf-044827de8c87" />
+
+7. Monetring
+
+<img width="960" height="540" alt="40img" src="https://github.com/user-attachments/assets/74b72d9d-e76c-4257-a35e-5cfe648467f1" />
+
+<img width="960" height="540" alt="41img" src="https://github.com/user-attachments/assets/61e8a307-40dd-4e03-a1cf-1c56c623cec4" />
+
+8. Destination
+
+
+<img width="960" height="540" alt="42img" src="https://github.com/user-attachments/assets/4911e017-704e-4e65-b706-1d0aafd0d70f" />
+
+<img width="960" height="540" alt="43img" src="https://github.com/user-attachments/assets/75a97fe4-0d09-4850-812c-caa45b9cc505" />
+
+
+
+
+ 
+
 
 
 
