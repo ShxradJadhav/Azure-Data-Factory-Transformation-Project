@@ -114,7 +114,6 @@
 ---
 
 ## 📸 Screenshots
-(Add your **40 screenshots** here step-by-step. Example:)
 
 1. Storage Account creation  
 <img width="960" height="540" alt="1img" src="https://github.com/user-attachments/assets/9647c5fa-4335-49ac-9949-bfff8afbffb3" />
