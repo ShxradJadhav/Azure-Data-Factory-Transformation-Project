@@ -117,7 +117,12 @@
 (Add your **40 screenshots** here step-by-step. Example:)
 
 1. Storage Account creation  
-   ![Storage Account](screenshots/storage_account.png)
+   <img width="960" height="540" alt="1img" src="https://github.com/user-attachments/assets/9647c5fa-4335-49ac-9949-bfff8afbffb3" />
+   
+<img width="960" height="540" alt="2img" src="https://github.com/user-attachments/assets/328acd9a-923d-41f3-ba90-611906346ca6" />
+
+<img width="960" height="540" alt="3img" src="https://github.com/user-attachments/assets/f68e9597-9495-41c3-9d2f-e1db65bc513b" />
+
 
 2. Container Setup  
    ![Containers](screenshots/containers.png)
