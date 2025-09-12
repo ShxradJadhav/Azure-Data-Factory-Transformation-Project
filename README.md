@@ -117,18 +117,44 @@
 (Add your **40 screenshots** here step-by-step. Example:)
 
 1. Storage Account creation  
-   <img width="960" height="540" alt="1img" src="https://github.com/user-attachments/assets/9647c5fa-4335-49ac-9949-bfff8afbffb3" />
+<img width="960" height="540" alt="1img" src="https://github.com/user-attachments/assets/9647c5fa-4335-49ac-9949-bfff8afbffb3" />
    
 <img width="960" height="540" alt="2img" src="https://github.com/user-attachments/assets/328acd9a-923d-41f3-ba90-611906346ca6" />
 
 <img width="960" height="540" alt="3img" src="https://github.com/user-attachments/assets/f68e9597-9495-41c3-9d2f-e1db65bc513b" />
 
+<img width="960" height="540" alt="4img" src="https://github.com/user-attachments/assets/7945988d-0753-417b-956a-6f33d9b1986d" />
+
 
 2. Container Setup  
-   ![Containers](screenshots/containers.png)
+<img width="960" height="540" alt="5img" src="https://github.com/user-attachments/assets/fe903fe1-1473-4287-b5d3-5905bba3b0f4" />
+
+<img width="960" height="540" alt="6img" src="https://github.com/user-attachments/assets/9bd1127b-0335-44ec-a704-591b08742a41" />
+
+
+3. Azure Data Fctory Creation
+
+<img width="960" height="540" alt="7img" src="https://github.com/user-attachments/assets/d5b5d963-0ec2-45ab-be8e-ac30b0866505" />
+
+<img width="960" height="540" alt="8img" src="https://github.com/user-attachments/assets/09769028-b62c-4772-9315-648cf3a756b0" />
+
+<img width="960" height="540" alt="9img" src="https://github.com/user-attachments/assets/e05e3dcb-b741-46e1-a4a6-59ff4cff0bc6" />
+
+<img width="960" height="540" alt="10img" src="https://github.com/user-attachments/assets/ef020acb-9a31-4984-843b-70f201e7e72f" />
+
+<img width="960" height="540" alt="11img" src="https://github.com/user-attachments/assets/e03a7a23-ce41-46e1-8b37-921d42f67eb1" />
+
+<img width="960" height="540" alt="12img" src="https://github.com/user-attachments/assets/8357cd3d-77a4-4229-a21a-6cbaf85a4edf" />
+
 
 3. Dataset Configuration  
-   ![Dataset](screenshots/dataset.png)
+<img width="960" height="540" alt="13img" src="https://github.com/user-attachments/assets/1c22f8a8-bebd-4c7b-958a-54b7ff5fbb3e" />
+
+<img width="960" height="540" alt="14img" src="https://github.com/user-attachments/assets/556a3f8d-7fe8-450b-96cb-1b8d8da13056" />
+
+
+
+
 
 ... (continue for all steps)  
 
