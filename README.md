@@ -1,3 +1,58 @@
+# 🔄 Azure Data Factory: Dynamic Pivot Transformation Pipeline
+[![Azure](https://img.shields.io/badge/Service-Data%20Factory-0072C6?style=flat-square&logo=microsoft-azure)](https://azure.microsoft.com/)
+[![Storage](https://img.shields.io/badge/Storage-Blob%20Gen2-orange?style=flat-square)](https://azure.microsoft.com/)
+
+## 📖 Business Scenario
+In retail data processing, transactional records are often stored in a "Tall" format (one row per transaction). To enable per-customer performance analysis, this data must be transformed into a "Wide" format.
+
+**Goal:** Automate the transformation of multi-row customer transactions into a single, consolidated record using **ADF Mapping Data Flows**.
+
+---
+
+## 🏗 ETL Logic & Transformation
+### Ingestion
+- **Source:** Delimited text files (CSV/TXT) stored in `input` container of Azure Blob Storage.
+- **Dataset:** Parametrized DelimitedText dataset to handle incoming sales records.
+
+### Transformation (Mapping Data Flow)
+1. **Pivot Logic:** Grouped by `CustomerID` and pivoted on the `Product` key.
+2. **Dynamic Aggregations:** - Calculated `SUM(Quantity)` with prefix `Qty_`
+   - Calculated `SUM(Amount)` with prefix `Amt_`
+3. **Type Casting:** Converted string inputs to Integers within the data flow expression builder to ensure mathematical accuracy.
+
+### Loading (Sink)
+- **Target:** Optimized output stored as a single partitioned CSV in the `output` container for direct ingestion by BI tools.
+
+---
+
+## 🛠 Technical Implementation Details
+- **ADF Version:** V2
+- **Compute:** Auto-resolve Integration Runtime (Central India)
+- **Optimization:** Used a **Single Partition** setting in the Sink to ensure a consolidated output file for reporting compatibility.
+- **Security:** Public network access restricted to specific Azure services.
+
+---
+
+## 📊 Sample Data Transformation
+**From (Transactional):**
+| CustomerID | Product | Month | Quantity | Amount |
+| :--- | :--- | :--- | :--- | :--- |
+| 101 | Pen | Jan | 10 | 100 |
+| 101 | Notebook | Jan | 5 | 250 |
+
+**To (Analytical):**
+| CustomerID | Qty_Notebook | Qty_Pen | Amt_Notebook | Amt_Pen |
+| :--- | :--- | :--- | :--- | :--- |
+| 101 | 5 | 10 | 250 | 100 |
+
+---
+
+### 👨‍💻 Project by
+**Sharad Jadhav** | [LinkedIn](https://www.linkedin.com/in/iamsharadjadhav/)
+
+
+
+---
 # Azure Data Factory Transformation Project 🚀
 
 ## 📌 Business Use Case
